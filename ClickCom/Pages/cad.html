@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cad.css">
+
+</head>
+<body>
+    <div class="background">
+        <header>
+            <nav>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">ClickCom</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Destaques</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="profile.html">Ver perfil</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="dev.html">Vire um Dev</a>
+                            </li>
+                            <div class="icons">
+                              <span><a rel="carrinho" href="carrinho.html"><ion-icon name="bag-outline"></ion-icon></a>
+                              </span>
+                            </div>
+                            <div class="icons">
+                                <span><a rel="Login" href="login.html"><div class="icons"><ion-icon name="person-circle-outline"></ion-icon></div></a>
+                              </div>
+                          </ul>
+                          <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                          </form>
+                      </div>
+                    </div>
+                  </nav>
+        </header> <p>
+
+            <br/><br/><br/><br/><br/><br/>
+
+        </p><div class="container">
+            <div class="form-image">
+                <img src="/img/pngtree-simple-pixel-game-button-element-illustration-in-transparent-background-png-image_5995881-removebg-preview.png" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="index.html">Entrar</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        </div>
+    
+    
+                        <div class="input-box">
+                            <label for="confirmPassword">Confirme sua Senha</label>
+                            <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                        </div>
+    
+                    </div>
+    
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+    
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input id="female" type="radio" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="male" type="radio" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="others" type="radio" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="none" type="radio" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="continue-button">
+                        <button><a href="index.html">Continuar</a> </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section class="Contato" id="Contato">
+            <div class="meio-contato">
+                <h3>ClickCom</h3>
+                <h5>Nos envie uma mensagem</h5>
+                <div class="icons">
+                    <span><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span><ion-icon name="logo-twitter"></ion-icon></span>
+                    <span><ion-icon name="logo-whatsapp"></ion-icon></span>
+                    <span><ion-icon name="mail"></ion-icon></span>
+                    
+                </div>
+            </div>
+        
+            <div class="meio-contato">
+                <h3>Menu</h3>
+                <li><a href="#">Destaques</a></li>
+                <li><a href="profile.html">Ver perfil</a></li>
+                <li><a href="#"></a></li>
+            </div>
+        
+            <div class="meio-contato">
+                <h3>Dúvidas</h3>
+                <li><a href="#">Formas de pagamento</a></li>
+                <li><a href="dev.html">Vire um Dev</a></li>
+            </div>
+        
+            <div class="meio-contato">
+                <h3>Parceiros</h3>
+                <li><a href="#">Parceiro 1</a></li>
+                <li><a href="#">Parceiro 2</a></li>
+                <li><a href="#">Parceiro 3</a></li>
+            </div>
+        
+        </section> 
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> 
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>       
+    </body>
+    
+    </html>
+
